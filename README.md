@@ -29,12 +29,13 @@ import jCount from 'jCount';
 Initialize it:
 
 ```html
+<input class="input" type="text" />
+<div class="count"></div>
+
 <script>
     const myInputCounter = new jCount({
         inputElement: document.querySelector('.input'),
         countElement: document.querySelector('.count'),
-        minCount: 50, // optional
-        maxCount: 200, // optional
     });
 </script>
 ```
