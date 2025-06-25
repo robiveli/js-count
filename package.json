@@ -10,7 +10,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/robiveli/js-count.git"
+        "url": "git+https://github.com/robiveli/js-count.git"
     },
     "main": "dist/index.module.js",
     "keywords": [
